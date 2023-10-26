@@ -72,13 +72,18 @@ body * {
 
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slide-back 0.2%;
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.2s forwards;
+}
+
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -92,7 +97,7 @@ body * {
   border-radius: 9999px;
 }
 
-/* Links */
+
 ul {
   list-style: none;
   display: flex;
@@ -153,3 +158,25 @@ ul li a:hover {
 
   }
 }
+
+  @keyframes slide-in {
+    from {
+      left:0;
+    }
+    
+    to {
+      left: 50%;
+    }
+
+    }
+
+    @keyframes slide-beck {
+      from {
+        left:50%;
+      }
+      
+      to {
+        left: 0;
+      }
+  
+      }
