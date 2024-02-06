@@ -1,9 +1,12 @@
 <h1 align="center"> DevLinks </h1>
 
-<p align="center">
+
+<div align="center">
+<img src="https://github.com/LilianGraciano/DevLinks/assets/147550994/422ade3c-6366-412a-904d-aa42ee28b139" width="500px" />
+</div>
 
 
-<p align="center">
+
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
